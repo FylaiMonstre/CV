@@ -11,6 +11,12 @@ header{
 footer{
     background-color: rgb(59, 59, 59);
     padding-top: 10px;
+    display: flex;
+}
+footer img{
+    padding-left: 10%;
+    width:13.3%;
+    padding-right: 10%;
 }
 nav{
     display: flex;
@@ -22,11 +28,29 @@ nav a{
 }
 .black-line {
     background-color: black;
-    height: 30rem;
+    height: 20rem;
     width: 0.6rem;
     margin-right: 2.8rem;
 }
+.home{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 .home img{
     display:flex;
-    height: 30rem;
+    width:25%;
+    height: 20rem;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+.intro{
+    display:flex;
+    align-items: center;
+}
+.presentation{
+    display:flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: space-between;
 }
